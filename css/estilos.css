@@ -1,0 +1,19 @@
+@import url(nav.css);
+@import url(header.css);
+@import url(section.css);
+
+/*el heavy es el que más se parece a la fuente de la pagina de la Rosalía*/
+@font-face{
+	font-family: Pilat-Ext-Heavy;
+	src: url(fuentes/PilatExtended-Heavy.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+	margin: 0;
+    font-family: Pilat-Ext-Heavy;
+    color: rgb(0, 0, 0);
+}
+
+

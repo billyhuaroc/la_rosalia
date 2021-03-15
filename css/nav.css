@@ -1,0 +1,46 @@
+/*una caja la usa para hacerle position: fixed*/
+/*uso otra caja diferente dentro para aplicar flex*/
+/*Aún así merch no está en el centro*/
+/*podría hacerse poniéndolo en una caja sola*/
+
+#nav-top{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+
+    padding: 20px 20px;
+}
+
+#nav-bottom{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+
+    padding: 0px 20px;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div h1{
+    font-size: 14px;
+}
+
+nav div h1 a {
+    text-decoration: none;
+}
+
+nav div h1 a:hover {
+    text-decoration: underline;
+}
+
+/*de 800 px para arriba*/
+@media (min-width: 800px) {
+    nav div h1{
+        font-size: 18px;
+    }
+}

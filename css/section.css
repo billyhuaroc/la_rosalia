@@ -1,0 +1,23 @@
+section{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+section a div{
+    margin: 12px 0px 0px 0px;
+    padding: 0px 25px;
+}
+
+section a div img{
+    /*border: 1px solid rgba(0, 0, 0, 0.5);*/
+    width: 100%;
+    height: 100%;
+}
+
+/*de 800 px para arriba*/
+@media (min-width: 600px) {
+    section{
+        width: 600px;
+    }
+}
